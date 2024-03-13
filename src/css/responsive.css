@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    background-image: url(/src/image/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 970px) {
+
+    main {
+        padding-bottom: 13rem;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .main .text {
+        text-align: center;
+        /* Alinha o texto principal no centro */
+        margin-bottom: 2rem;
+        /* Adiciona uma margem inferior */
+    }
+
+    .main .text h1 {
+        font-size: 1.5rem;
+    }
+
+    .main .text p {
+        font-size: 1rem;
+    }
+
+    .form {
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: 100vh;
+        padding: 2rem;
+        width: 20rem;
+    }
+
+    .form .info input {
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+
+    .info button[type="submit"] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10rem;
+    }
+
+
+}

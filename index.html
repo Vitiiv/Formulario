@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <main>
+        <section class="main">
+            <div class="text">
+                <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+                <p>Caso tenha fica com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                    24h.
+                </p>
+            </div>
+
+            <form id="form" class="form">
+                <div class="info">
+                    <label for="username"></label>
+                    <input type="text" id="username" placeholder="Nome completo *">
+                    <small class="small">campo obrigatório</small>
+                </div>
+
+                <div class="info">
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="Email *">
+                    <small class="small">campo obrigatório</small>
+                </div>
+
+                <div class="info">
+                    <label for="telephone"></label>
+                    <input type="text" id="telephone" placeholder="Telefone *">
+                    <small class="small">campo obrigatório</small>
+                </div>
+
+                <div class="info">
+                    <label class="message" for="message"></label>
+                    <input type="text" id="message" placeholder="Mensagem *">
+                    <small class="small">campo obrigatório</small>
+                </div>
+                <div class="campo-obrigatorio">
+                    <p class="obrigatorio">*Campos obrigatorio</p>
+                </div>
+                <div class="info">
+                    <button id="button" class="button" type="submit" value="Enviar">Enviar</button>
+
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <script src="./src/js/formulario.js"></script>
+</body>
+
+</html>
